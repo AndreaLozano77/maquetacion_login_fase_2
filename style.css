@@ -127,7 +127,7 @@ footer{
 .section-1-2{
     width: 50%;
     height: 100%;
-    /* background-color:beige; */
+    background-color:beige;
 }
 
 
@@ -143,9 +143,9 @@ footer{
 }
 
 .sign-in-container{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    /* border: 3px solid blue; */
+    border: 3px solid blue;
     margin-top: 10%;
 }
 
