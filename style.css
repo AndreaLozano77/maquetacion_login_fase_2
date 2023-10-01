@@ -127,7 +127,7 @@ footer{
 .section-1-2{
     width: 50%;
     height: 100%;
-    background-color:beige;
+    /* background-color:beige; */
 }
 
 
@@ -184,7 +184,7 @@ input{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 7%;
 }
 
