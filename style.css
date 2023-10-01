@@ -133,7 +133,7 @@ footer{
 
 .form-container{
     display: flex;
-    padding: 40px;
+    /* padding: 40px; */
     flex-direction: column;
     align-items: center;
 }
@@ -145,7 +145,7 @@ footer{
 .sign-in-container{
     width: 100%;
     margin: auto;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     margin-top: 10%;
 }
 
