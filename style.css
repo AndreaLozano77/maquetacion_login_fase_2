@@ -5,56 +5,135 @@
 }
 
 body{
-    background: #1a2233;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    margin: -20px 0 50px;
-}
-
-h2{
-    margin-bottom: 20px;
-}
-
-span{
-    font-size: 12px;
-}
-
-.correo{
-    margin-top: 15px;
-}
-
-a{
-    color: #666;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-button{
     width: 100%;
-    padding: 10px;
-    background-color: #1a2233;
-    color: #fff;
-    margin-top: 20px;
+    margin: auto;
+    height: 100%;
+    background-color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, alpha 0.25);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    max-width: 800px;
-    margin: 20px;
+    width: 90%;
+    margin: auto;
+    height: 88vh;
+    background-color: white;
 }
 
-.form-container{
-    padding: 40px;
+.logo{
+    width: 12%;
+    height: auto;
+    margin-left: 8%;
+    background-color: white;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    width: 80%;
+    height: auto;
+    /* border: 3px dashed white; */
+}
+
+nav{
     display: flex;
+    width: 100%;
+    /* margin: auto; */
+    height: 18%;
+    background-color: #2196f3;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 250px;
+    margin: 0 40px;
+    text-transform: uppercase;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 18px;
+}
+
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    width:90%;
+    margin: auto;
+    height: 12vh;
+    background-color: #f2a122;
+}
+
+.lado-1{
+    width: 33%;
+    height: 100%;
+    /* border: 3px solid black; */
+}
+
+.lado-2{
+    width: 33%;
+    height: 100%;
+    /* border: 3px solid white; */
+}
+
+.lado-2 img{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.lado-3{
+    width: 33%;
+    height: 100%;
+    /* border: 3px solid black; */
+}
+
+.section-1{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    height: 80%;
+    /* border: 3px solid red; */
+}
+
+.section-1-1{
+    width: 50%;
+    height: 95%;
+
+    background-image: url('./images/mujer-con-gafas-realidad-virtual-cuadro1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section-1-a{
+    width: 50%;
+    height: 95%;
+
+    background-image: url('./images/mujer-con-gafas-realidad-virtual-cuadro2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.section-1-2{
+    width: 50%;
+    height: 100%;
+    /* background-color:beige; */
+}
+
+
+.form-container{
+    display: flex;
+    padding: 40px;
     flex-direction: column;
     align-items: center;
 }
@@ -63,9 +142,17 @@ button{
     margin-bottom: 20px;
 }
 
+.sign-in-container{
+    width: 80%;
+    margin: auto;
+    /* border: 3px solid blue; */
+    margin-top: 10%;
+}
+
+
 .social-container{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .social{
@@ -76,7 +163,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -92,27 +179,31 @@ button{
 input{
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 7%;
     border: 1px solid #ccc;
 }
 
-.img-container{
-    padding-top: 85px;
-    padding-left: 50px
+h2{
+    font-size: 2rem;
+    margin-bottom: 7%;
 }
 
-.imagen{
+.olvido-contraseña{
+    display: block;
+    margin-bottom: 6%;
+    text-decoration: none;
+    color: black;
+}
+
+.cuenta{
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.entrar{
     width: 100%;
-    max-width: 550px;
-    height: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .container{
-        grid-template-columns: 1fr;
-        max-width: 90%;
-    }
-    .imagen{
-        max-width: 100%;
-    }
+    padding: 10px;
+    background-color: #2196f3;
+    color: #fff;
+    margin-top: 20px;    
 }
